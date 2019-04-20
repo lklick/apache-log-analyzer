@@ -110,7 +110,7 @@ def start_polling():
 if __name__ == "__main__":
 	try:
 		init()
+		start_polling()
 	except Exception:
 		print_usage()
-		print_formatted("Stopping script with errors")	
-	start_polling()
+		print_formatted("Stopping script with errors")
